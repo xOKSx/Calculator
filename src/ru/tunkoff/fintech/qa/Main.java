@@ -14,7 +14,6 @@ public class Main {
         while (true) {
             while (true) {
                 System.out.print("Введите первое число:\t");
-
                 if (input.hasNextDouble()) {
                     fistValue = input.nextDouble();
                     break;
@@ -41,7 +40,6 @@ public class Main {
 
             while (true) {
                 System.out.print("Введите второе число:\t");
-
                 if (input.hasNextDouble()) {
                     secondValue = input.nextDouble();
                     break;
@@ -59,7 +57,7 @@ public class Main {
                 input.close();
                 return;
             } else {
-                System.out.println("");
+                System.out.println();
                 input.nextLine();
             }
         }
